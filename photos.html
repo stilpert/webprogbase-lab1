@@ -2,35 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>PhotoMarket</title>
+  <title>YourShot</title>
   <meta name="description" content="MY FIRST SITE DESCRIPTION">
   <meta name="author" content="MY NAME">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="topnav">
+      <img src="img/logo.png"></img>
       <a href="index.html">Home</a>
       <a class="active" href="photos.html">Photos</a>
       <a href="users.html">Photographers</a>
       <a href="about.html">About us</a>
     </div>
-    <div class="descblock">
-        <div class="image-container">
-            <img src="img/photo1.jpeg" alt=""></img>
-            <img src="img/photo2.jpeg" alt=""></img>
-            <img src="img/photo3.jpeg" alt=""></img>
-            <img src="img/photo2.jpeg" alt=""></img>
-            <img src="img/photo1.jpeg" alt=""></img>
-            <img src="img/photo3.jpeg" alt=""></img>
-            <img src="img/photo3.jpeg" alt=""></img>
-            <img src="img/photo1.jpeg" alt=""></img>
-            <img src="img/photo2.jpeg" alt=""></img>
-            <img src="img/photo1.jpeg" alt=""></img>
-            <img src="img/photo3.jpeg" alt=""></img>
-            <img src="img/photo2.jpeg" alt=""></img>
-        </div>
-    
-    </div>
+    <div class="grid-container">
+
+        <article class="photo-listing">
+          <a class="photo-title" href="photo1.html">
+            <img src="img/user1.jpg"></img>
+            User1
+          </a>
+          <div class="photo">
+            <a href="photo1.html">
+              <img src="img/photo1.jpeg">
+            </a>
+          </div>
+        </article>
   
+        <article class="photo-listing">
+          <a class="photo-title" href="photo2.html">
+            <img src="img/user2.jpg"></img>
+            User2
+          </a>
+          <div class="photo">
+            <a href="#">
+              <img src="img/photo2.jpeg"> </a>
+          </div> 
+        </article>
+  
+        <article class="photo-listing">
+          <a class="photo-title" href="photo1.html">
+            <img src="img/user1.jpg" alt=""></img>
+            User1
+          </a>
+          <div class="photo">
+            <a href="#">
+              <img src="img/photo1.jpeg"> </a>
+          </div>
+        </article>
+  
+        <article class="photo-listing">
+          <a class="photo-title" href="photo3.html">
+            <img src="img/user1.jpg" alt=""></img>
+            User1
+          </a>
+          <div class="photo">
+            <a href="#">
+              <img src="img/photo3.jpeg"> </a>
+          </div>
+        </article>
+  
+        <article class="photo-listing">
+          <a class="photo-title" href="photo1.html">
+            <img src="img/user1.jpg" alt=""></img>
+            User1
+          </a>
+            <div class="photo">
+            <a href="#">
+              <img src="img/photo1.jpeg"> </a>
+          </div>
+        </article>
+  
+        <article id="3700" class="photo-listing">
+          <a class="photo-title" href="photo3.html">
+            <img src="img/user1.jpg" alt=""></img>
+            User1
+          </a>
+          <div class="photo">
+            <a href="#">
+              <img src="img/photo3.jpeg">
+            </a>
+          </div>
+        </article>
+
+      </div>
 </body>
 </html>
